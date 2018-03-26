@@ -1,0 +1,7 @@
+.currentLocation {
+    @extend %moduleContainer;
+    display: flex;
+    > * {
+        flex: 1 1 50%;
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "theEarthling",
+  "version": "1.0.0",
+  "description": "The Earthing food truck website",
+  "main": "index.js",
+  "repository": "https://github.com/FranceJ/theEarthling.git",
+  "author": "brittonjenner <britton@alertlabs.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^8.2.0",
+    "cssnano": "^3.10.0",
+    "grunt": "^1.0.2",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-postcss": "^0.9.0",
+    "pixrem": "^4.0.1"
+  },
+  "dependencies": {}
+}

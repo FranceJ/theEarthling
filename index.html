@@ -11,18 +11,62 @@
         <link rel="apple-touch-icon" href="icon.png">
         <!-- Place favicon.ico in the root directory -->
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="" alt="the Earthling Logo, small version">
+                </div>
+                <a href="./files/menu.pdf">Our Menu</a>
+            </nav>
+        </header>
+        <div class="banner">
+            <div class="logo">
+                <img src="" alt="the Earthling logo">
+            </div>
+        </div>
+        <div class="calendar">
+            <iframe src="https://calendar.google.com/calendar/embed?src=eoum41sllmp805lm6edonak1l8%40group.calendar.google.com&ctz=America%2FToronto" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        </div>
+        <div class="currentLocation">
+            <div>
+                Location blurb
+            </div>
+            <iframe width="600" height="450" frameborder="0" style="border:0"
+                    src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJH9k7zff0K4gR0qimKY8VHuU&key=AIzaSyAt0dNqTTvgASxrMZaKUYmK1B9EuhHl2QI" allowfullscreen></iframe>
+        </div>
+        <div>
+            <h2>INSTAGRAM FEED HERE</h2>
+        </div>
+        <div>
+            <h2>about us</h2>
+        </div>
+        <footer>
+            <div class="social">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/theearthlingcuisine"><img src="./img/icon-facebook.png" alt="Facebook logo"></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/theearthling"><img src="./img/icon-twitter.png" alt="Twitter logo"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/the.earthling.cuisine/"><img src="./img/icon-instagram.png" alt="Instagram logo"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="contactUs">
+                <a href="mailto:dlyons@theearthling.ca">dlyons@theearthling.ca</a>
+            </div>
+        </footer>
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <!--<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>-->
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
@@ -33,5 +77,23 @@
             ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
         </script>
         <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+        <!--<script>-->
+            <!--var HttpClient = function() {-->
+                <!--this.get = function(aUrl, aCallback) {-->
+                    <!--var anHttpRequest = new XMLHttpRequest();-->
+                    <!--anHttpRequest.onreadystatechange = function() {-->
+                        <!--if (anHttpRequest.readyState == 4 && anHttpRequest.status == 200)-->
+                            <!--aCallback(anHttpRequest.responseText);-->
+                    <!--};-->
+
+                    <!--anHttpRequest.open( "GET", aUrl, true );-->
+                    <!--anHttpRequest.send( null );-->
+                <!--}-->
+            <!--};-->
+            <!--var client = new HttpClient();-->
+            <!--client.get('https://api.instagram.com/oembed?url=http://instagr.am/p/BfzEcxjAmdm/', function(response) {-->
+                <!--console.log(response);-->
+            <!--});-->
+        <!--</script>-->
     </body>
 </html>
